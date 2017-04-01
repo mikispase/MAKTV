@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30E13A41E9061B300A3A3FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A31E9061B300A3A3FB /* main.m */; };
+		A30E13A71E9061B300A3A3FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A61E9061B300A3A3FB /* AppDelegate.m */; };
+		A30E13AA1E9061B300A3A3FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A91E9061B300A3A3FB /* ViewController.m */; };
+		A30E13AD1E9061B300A3A3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E13AB1E9061B300A3A3FB /* Main.storyboard */; };
+		A30E13AF1E9061B300A3A3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E13AE1E9061B300A3A3FB /* Assets.xcassets */; };
+		A30E13BA1E9061B300A3A3FB /* MakTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13B91E9061B300A3A3FB /* MakTVTests.m */; };
+		A30E13C51E9061B300A3A3FB /* MakTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13C41E9061B300A3A3FB /* MakTVUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30E13B61E9061B300A3A3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30E13971E9061B300A3A3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30E139E1E9061B300A3A3FB;
+			remoteInfo = MakTV;
+		};
+		A30E13C11E9061B300A3A3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30E13971E9061B300A3A3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30E139E1E9061B300A3A3FB;
+			remoteInfo = MakTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A30E139F1E9061B300A3A3FB /* MakTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E13A31E9061B300A3A3FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A30E13A51E9061B300A3A3FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A30E13A61E9061B300A3A3FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A30E13A81E9061B300A3A3FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A30E13A91E9061B300A3A3FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A30E13AC1E9061B300A3A3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A30E13AE1E9061B300A3A3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A30E13B01E9061B300A3A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30E13B51E9061B300A3A3FB /* MakTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E13B91E9061B300A3A3FB /* MakTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakTVTests.m; sourceTree = "<group>"; };
+		A30E13BB1E9061B300A3A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30E13C01E9061B300A3A3FB /* MakTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E13C41E9061B300A3A3FB /* MakTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakTVUITests.m; sourceTree = "<group>"; };
+		A30E13C61E9061B300A3A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30E139C1E9061B300A3A3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E13B21E9061B300A3A3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E13BD1E9061B300A3A3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30E13961E9061B300A3A3FB = {
+			isa = PBXGroup;
+			children = (
+				A30E13A11E9061B300A3A3FB /* MakTV */,
+				A30E13B81E9061B300A3A3FB /* MakTVTests */,
+				A30E13C31E9061B300A3A3FB /* MakTVUITests */,
+				A30E13A01E9061B300A3A3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30E13A01E9061B300A3A3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30E139F1E9061B300A3A3FB /* MakTV.app */,
+				A30E13B51E9061B300A3A3FB /* MakTVTests.xctest */,
+				A30E13C01E9061B300A3A3FB /* MakTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30E13A11E9061B300A3A3FB /* MakTV */ = {
+			isa = PBXGroup;
+			children = (
+				A30E13A51E9061B300A3A3FB /* AppDelegate.h */,
+				A30E13A61E9061B300A3A3FB /* AppDelegate.m */,
+				A30E13A81E9061B300A3A3FB /* ViewController.h */,
+				A30E13A91E9061B300A3A3FB /* ViewController.m */,
+				A30E13AB1E9061B300A3A3FB /* Main.storyboard */,
+				A30E13AE1E9061B300A3A3FB /* Assets.xcassets */,
+				A30E13B01E9061B300A3A3FB /* Info.plist */,
+				A30E13A21E9061B300A3A3FB /* Supporting Files */,
+			);
+			path = MakTV;
+			sourceTree = "<group>";
+		};
+		A30E13A21E9061B300A3A3FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A30E13A31E9061B300A3A3FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A30E13B81E9061B300A3A3FB /* MakTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				A30E13B91E9061B300A3A3FB /* MakTVTests.m */,
+				A30E13BB1E9061B300A3A3FB /* Info.plist */,
+			);
+			path = MakTVTests;
+			sourceTree = "<group>";
+		};
+		A30E13C31E9061B300A3A3FB /* MakTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A30E13C41E9061B300A3A3FB /* MakTVUITests.m */,
+				A30E13C61E9061B300A3A3FB /* Info.plist */,
+			);
+			path = MakTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30E139E1E9061B300A3A3FB /* MakTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E13C91E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTV" */;
+			buildPhases = (
+				A30E139B1E9061B300A3A3FB /* Sources */,
+				A30E139C1E9061B300A3A3FB /* Frameworks */,
+				A30E139D1E9061B300A3A3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakTV;
+			productName = MakTV;
+			productReference = A30E139F1E9061B300A3A3FB /* MakTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A30E13B41E9061B300A3A3FB /* MakTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E13CC1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVTests" */;
+			buildPhases = (
+				A30E13B11E9061B300A3A3FB /* Sources */,
+				A30E13B21E9061B300A3A3FB /* Frameworks */,
+				A30E13B31E9061B300A3A3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30E13B71E9061B300A3A3FB /* PBXTargetDependency */,
+			);
+			name = MakTVTests;
+			productName = MakTVTests;
+			productReference = A30E13B51E9061B300A3A3FB /* MakTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A30E13BF1E9061B300A3A3FB /* MakTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E13CF1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVUITests" */;
+			buildPhases = (
+				A30E13BC1E9061B300A3A3FB /* Sources */,
+				A30E13BD1E9061B300A3A3FB /* Frameworks */,
+				A30E13BE1E9061B300A3A3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30E13C21E9061B300A3A3FB /* PBXTargetDependency */,
+			);
+			name = MakTVUITests;
+			productName = MakTVUITests;
+			productReference = A30E13C01E9061B300A3A3FB /* MakTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30E13971E9061B300A3A3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Natalija Pavlovska";
+				TargetAttributes = {
+					A30E139E1E9061B300A3A3FB = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DL355SS22D;
+						ProvisioningStyle = Automatic;
+					};
+					A30E13B41E9061B300A3A3FB = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DL355SS22D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A30E139E1E9061B300A3A3FB;
+					};
+					A30E13BF1E9061B300A3A3FB = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DL355SS22D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A30E139E1E9061B300A3A3FB;
+					};
+				};
+			};
+			buildConfigurationList = A30E139A1E9061B300A3A3FB /* Build configuration list for PBXProject "MakTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30E13961E9061B300A3A3FB;
+			productRefGroup = A30E13A01E9061B300A3A3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30E139E1E9061B300A3A3FB /* MakTV */,
+				A30E13B41E9061B300A3A3FB /* MakTVTests */,
+				A30E13BF1E9061B300A3A3FB /* MakTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30E139D1E9061B300A3A3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E13AF1E9061B300A3A3FB /* Assets.xcassets in Resources */,
+				A30E13AD1E9061B300A3A3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E13B31E9061B300A3A3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E13BE1E9061B300A3A3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30E139B1E9061B300A3A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E13AA1E9061B300A3A3FB /* ViewController.m in Sources */,
+				A30E13A71E9061B300A3A3FB /* AppDelegate.m in Sources */,
+				A30E13A41E9061B300A3A3FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E13B11E9061B300A3A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E13BA1E9061B300A3A3FB /* MakTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E13BC1E9061B300A3A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E13C51E9061B300A3A3FB /* MakTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30E13B71E9061B300A3A3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30E139E1E9061B300A3A3FB /* MakTV */;
+			targetProxy = A30E13B61E9061B300A3A3FB /* PBXContainerItemProxy */;
+		};
+		A30E13C21E9061B300A3A3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30E139E1E9061B300A3A3FB /* MakTV */;
+			targetProxy = A30E13C11E9061B300A3A3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A30E13AB1E9061B300A3A3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30E13AC1E9061B300A3A3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30E13C71E9061B300A3A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A30E13C81E9061B300A3A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A30E13CA1E9061B300A3A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DL355SS22D;
+				INFOPLIST_FILE = MakTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A30E13CB1E9061B300A3A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DL355SS22D;
+				INFOPLIST_FILE = MakTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A30E13CD1E9061B300A3A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DL355SS22D;
+				INFOPLIST_FILE = MakTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakTV.app/MakTV";
+			};
+			name = Debug;
+		};
+		A30E13CE1E9061B300A3A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DL355SS22D;
+				INFOPLIST_FILE = MakTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakTV.app/MakTV";
+			};
+			name = Release;
+		};
+		A30E13D01E9061B300A3A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DL355SS22D;
+				INFOPLIST_FILE = MakTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakTV;
+			};
+			name = Debug;
+		};
+		A30E13D11E9061B300A3A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DL355SS22D;
+				INFOPLIST_FILE = MakTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30E139A1E9061B300A3A3FB /* Build configuration list for PBXProject "MakTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E13C71E9061B300A3A3FB /* Debug */,
+				A30E13C81E9061B300A3A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30E13C91E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E13CA1E9061B300A3A3FB /* Debug */,
+				A30E13CB1E9061B300A3A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A30E13CC1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E13CD1E9061B300A3A3FB /* Debug */,
+				A30E13CE1E9061B300A3A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A30E13CF1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E13D01E9061B300A3A3FB /* Debug */,
+				A30E13D11E9061B300A3A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30E13971E9061B300A3A3FB /* Project object */;
+}
