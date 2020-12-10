@@ -1,11 +1,3 @@
-//
-//  MakTVTests.m
-//  MakTVTests
-//
-//  Created by Natalija Pavlovska on 4/2/17.
-//  Copyright © 2017 Natalija Pavlovska. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface MakTVTests : XCTestCase

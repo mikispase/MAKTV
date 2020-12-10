@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246914B11F183D3A00F66FB3 /* LED-TV-PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 246914B01F183D3A00F66FB3 /* LED-TV-PNG.png */; };
+		2498988925821D13005C42D6 /* alsat.png in Resources */ = {isa = PBXBuildFile; fileRef = 2498988825821D13005C42D6 /* alsat.png */; };
+		2498989125821F18005C42D6 /* tv_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2498989025821F18005C42D6 /* tv_21.jpg */; };
+		249E2C0A22A2B793001CB6CF /* arena4.png in Resources */ = {isa = PBXBuildFile; fileRef = 249E2C0922A2B793001CB6CF /* arena4.png */; };
+		24A4D457227ED19300C2410F /* mtmSkopska.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A4D456227ED19300C2410F /* mtmSkopska.png */; };
+		4391BC051E92B6A6002B6F86 /* era.png in Resources */ = {isa = PBXBuildFile; fileRef = 4391BC041E92B6A6002B6F86 /* era.png */; };
+		4391BC071E92B7B2002B6F86 /* 21tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4391BC061E92B7B2002B6F86 /* 21tv.png */; };
+		4394DA9C1E9293DF00B94051 /* alfa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DA9B1E9293DF00B94051 /* alfa.png */; };
+		4394DA9E1E9294B600B94051 /* mrt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DA9D1E9294B600B94051 /* mrt.png */; };
+		4394DAA21E92970000B94051 /* 24vesti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DAA11E92970000B94051 /* 24vesti.png */; };
+		4394DAA41E92977C00B94051 /* tvnova.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DAA31E92977C00B94051 /* tvnova.png */; };
+		4394DAA61E9298B700B94051 /* sitel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DAA51E9298B700B94051 /* sitel3.png */; };
+		4394DAA81E92993200B94051 /* kanal5plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DAA71E92993200B94051 /* kanal5plus.png */; };
+		4394DAAA1E9299CF00B94051 /* nasa-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DAA91E9299CF00B94051 /* nasa-tv.png */; };
+		43BFD9C21E9240F400C9F59E /* kanal5.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BFD9C11E9240F400C9F59E /* kanal5.png */; };
+		43C526871E92687500095A28 /* telma.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C526861E92687500095A28 /* telma.png */; };
 		A30E13A41E9061B300A3A3FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A31E9061B300A3A3FB /* main.m */; };
 		A30E13A71E9061B300A3A3FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A61E9061B300A3A3FB /* AppDelegate.m */; };
-		A30E13AA1E9061B300A3A3FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A91E9061B300A3A3FB /* ViewController.m */; };
+		A30E13AA1E9061B300A3A3FB /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A91E9061B300A3A3FB /* TVViewController.m */; };
 		A30E13AD1E9061B300A3A3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E13AB1E9061B300A3A3FB /* Main.storyboard */; };
 		A30E13AF1E9061B300A3A3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E13AE1E9061B300A3A3FB /* Assets.xcassets */; };
 		A30E13BA1E9061B300A3A3FB /* MakTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13B91E9061B300A3A3FB /* MakTVTests.m */; };
 		A30E13C51E9061B300A3A3FB /* MakTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13C41E9061B300A3A3FB /* MakTVUITests.m */; };
+		A30E13D41E9063DA00A3A3FB /* CellClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13D31E9063DA00A3A3FB /* CellClass.m */; };
+		A30E13DB1E9078F300A3A3FB /* TelevisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13DA1E9078F300A3A3FB /* TelevisionViewController.m */; };
+		A3B509F91E910155003937B5 /* sitel.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B509F81E910155003937B5 /* sitel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +53,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246914B01F183D3A00F66FB3 /* LED-TV-PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LED-TV-PNG.png"; sourceTree = "<group>"; };
+		2498988825821D13005C42D6 /* alsat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alsat.png; sourceTree = "<group>"; };
+		2498989025821F18005C42D6 /* tv_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tv_21.jpg; sourceTree = "<group>"; };
+		249E2C0922A2B793001CB6CF /* arena4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arena4.png; sourceTree = "<group>"; };
+		24A4D456227ED19300C2410F /* mtmSkopska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mtmSkopska.png; sourceTree = "<group>"; };
+		4391BC041E92B6A6002B6F86 /* era.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = era.png; sourceTree = "<group>"; };
+		4391BC061E92B7B2002B6F86 /* 21tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21tv.png; sourceTree = "<group>"; };
+		4394DA9B1E9293DF00B94051 /* alfa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alfa.png; sourceTree = "<group>"; };
+		4394DA9D1E9294B600B94051 /* mrt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mrt.png; sourceTree = "<group>"; };
+		4394DAA11E92970000B94051 /* 24vesti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24vesti.png; sourceTree = "<group>"; };
+		4394DAA31E92977C00B94051 /* tvnova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvnova.png; sourceTree = "<group>"; };
+		4394DAA51E9298B700B94051 /* sitel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitel3.png; sourceTree = "<group>"; };
+		4394DAA71E92993200B94051 /* kanal5plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanal5plus.png; sourceTree = "<group>"; };
+		4394DAA91E9299CF00B94051 /* nasa-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nasa-tv.png"; sourceTree = "<group>"; };
+		43BFD9C11E9240F400C9F59E /* kanal5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanal5.png; path = ../kanal5.png; sourceTree = "<group>"; };
+		43C526861E92687500095A28 /* telma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telma.png; sourceTree = "<group>"; };
 		A30E139F1E9061B300A3A3FB /* MakTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30E13A31E9061B300A3A3FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A30E13A51E9061B300A3A3FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A30E13A61E9061B300A3A3FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A30E13A81E9061B300A3A3FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A30E13A91E9061B300A3A3FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A30E13A81E9061B300A3A3FB /* TVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVViewController.h; sourceTree = "<group>"; };
+		A30E13A91E9061B300A3A3FB /* TVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVViewController.m; sourceTree = "<group>"; };
 		A30E13AC1E9061B300A3A3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A30E13AE1E9061B300A3A3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30E13B01E9061B300A3A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +84,11 @@
 		A30E13C01E9061B300A3A3FB /* MakTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30E13C41E9061B300A3A3FB /* MakTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakTVUITests.m; sourceTree = "<group>"; };
 		A30E13C61E9061B300A3A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30E13D21E9063DA00A3A3FB /* CellClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellClass.h; sourceTree = "<group>"; };
+		A30E13D31E9063DA00A3A3FB /* CellClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellClass.m; sourceTree = "<group>"; };
+		A30E13D91E9078F300A3A3FB /* TelevisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelevisionViewController.h; sourceTree = "<group>"; };
+		A30E13DA1E9078F300A3A3FB /* TelevisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelevisionViewController.m; sourceTree = "<group>"; };
+		A3B509F81E910155003937B5 /* sitel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sitel.png; path = ../sitel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +139,10 @@
 		A30E13A11E9061B300A3A3FB /* MakTV */ = {
 			isa = PBXGroup;
 			children = (
+				A3B509FB1E916F34003937B5 /* CollectionViewCell */,
+				A3B509FA1E916F1A003937B5 /* ViewController */,
 				A30E13A51E9061B300A3A3FB /* AppDelegate.h */,
 				A30E13A61E9061B300A3A3FB /* AppDelegate.m */,
-				A30E13A81E9061B300A3A3FB /* ViewController.h */,
-				A30E13A91E9061B300A3A3FB /* ViewController.m */,
 				A30E13AB1E9061B300A3A3FB /* Main.storyboard */,
 				A30E13AE1E9061B300A3A3FB /* Assets.xcassets */,
 				A30E13B01E9061B300A3A3FB /* Info.plist */,
@@ -114,6 +154,7 @@
 		A30E13A21E9061B300A3A3FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3B509FC1E916F52003937B5 /* TV Logo's */,
 				A30E13A31E9061B300A3A3FB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,6 +176,50 @@
 				A30E13C61E9061B300A3A3FB /* Info.plist */,
 			);
 			path = MakTVUITests;
+			sourceTree = "<group>";
+		};
+		A3B509FA1E916F1A003937B5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A30E13A81E9061B300A3A3FB /* TVViewController.h */,
+				A30E13A91E9061B300A3A3FB /* TVViewController.m */,
+				A30E13D91E9078F300A3A3FB /* TelevisionViewController.h */,
+				A30E13DA1E9078F300A3A3FB /* TelevisionViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A3B509FB1E916F34003937B5 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A30E13D21E9063DA00A3A3FB /* CellClass.h */,
+				A30E13D31E9063DA00A3A3FB /* CellClass.m */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A3B509FC1E916F52003937B5 /* TV Logo's */ = {
+			isa = PBXGroup;
+			children = (
+				246914B01F183D3A00F66FB3 /* LED-TV-PNG.png */,
+				43BFD9C11E9240F400C9F59E /* kanal5.png */,
+				A3B509F81E910155003937B5 /* sitel.png */,
+				43C526861E92687500095A28 /* telma.png */,
+				4394DA9B1E9293DF00B94051 /* alfa.png */,
+				4394DA9D1E9294B600B94051 /* mrt.png */,
+				249E2C0922A2B793001CB6CF /* arena4.png */,
+				4394DAA11E92970000B94051 /* 24vesti.png */,
+				4394DAA31E92977C00B94051 /* tvnova.png */,
+				4394DAA51E9298B700B94051 /* sitel3.png */,
+				4394DAA71E92993200B94051 /* kanal5plus.png */,
+				4394DAA91E9299CF00B94051 /* nasa-tv.png */,
+				4391BC061E92B7B2002B6F86 /* 21tv.png */,
+				4391BC041E92B6A6002B6F86 /* era.png */,
+				24A4D456227ED19300C2410F /* mtmSkopska.png */,
+				2498988825821D13005C42D6 /* alsat.png */,
+				2498989025821F18005C42D6 /* tv_21.jpg */,
+			);
+			name = "TV Logo's";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +289,7 @@
 				TargetAttributes = {
 					A30E139E1E9061B300A3A3FB = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = DL355SS22D;
+						DevelopmentTeam = 3ER26337KX;
 						ProvisioningStyle = Automatic;
 					};
 					A30E13B41E9061B300A3A3FB = {
@@ -226,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,8 +332,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4394DAA81E92993200B94051 /* kanal5plus.png in Resources */,
+				249E2C0A22A2B793001CB6CF /* arena4.png in Resources */,
+				2498988925821D13005C42D6 /* alsat.png in Resources */,
 				A30E13AF1E9061B300A3A3FB /* Assets.xcassets in Resources */,
+				4394DA9E1E9294B600B94051 /* mrt.png in Resources */,
+				4394DAA41E92977C00B94051 /* tvnova.png in Resources */,
+				4394DAA61E9298B700B94051 /* sitel3.png in Resources */,
+				4391BC071E92B7B2002B6F86 /* 21tv.png in Resources */,
+				43C526871E92687500095A28 /* telma.png in Resources */,
+				4391BC051E92B6A6002B6F86 /* era.png in Resources */,
+				2498989125821F18005C42D6 /* tv_21.jpg in Resources */,
+				246914B11F183D3A00F66FB3 /* LED-TV-PNG.png in Resources */,
+				43BFD9C21E9240F400C9F59E /* kanal5.png in Resources */,
+				4394DA9C1E9293DF00B94051 /* alfa.png in Resources */,
+				4394DAAA1E9299CF00B94051 /* nasa-tv.png in Resources */,
+				A3B509F91E910155003937B5 /* sitel.png in Resources */,
 				A30E13AD1E9061B300A3A3FB /* Main.storyboard in Resources */,
+				4394DAA21E92970000B94051 /* 24vesti.png in Resources */,
+				24A4D457227ED19300C2410F /* mtmSkopska.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30E13AA1E9061B300A3A3FB /* ViewController.m in Sources */,
+				A30E13DB1E9078F300A3A3FB /* TelevisionViewController.m in Sources */,
+				A30E13D41E9063DA00A3A3FB /* CellClass.m in Sources */,
+				A30E13AA1E9061B300A3A3FB /* TVViewController.m in Sources */,
 				A30E13A71E9061B300A3A3FB /* AppDelegate.m in Sources */,
 				A30E13A41E9061B300A3A3FB /* main.m in Sources */,
 			);
@@ -416,11 +521,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = DL355SS22D;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3ER26337KX;
 				INFOPLIST_FILE = MakTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.io.makTV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -429,11 +537,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = DL355SS22D;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3ER26337KX;
 				INFOPLIST_FILE = MakTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.io.makTV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -506,6 +617,7 @@
 				A30E13CB1E9061B300A3A3FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30E13CC1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +626,7 @@
 				A30E13CE1E9061B300A3A3FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30E13CF1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +635,7 @@
 				A30E13D11E9061B300A3A3FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
