@@ -3,14 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24273D9228B2BA9B00680A2E /* M3U8MediaPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D7A28B2BA9B00680A2E /* M3U8MediaPlaylist.m */; };
+		24273D9328B2BA9B00680A2E /* M3U8SegmentInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D7C28B2BA9B00680A2E /* M3U8SegmentInfoList.m */; };
+		24273D9428B2BA9B00680A2E /* M3U8SegmentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D7F28B2BA9B00680A2E /* M3U8SegmentInfo.m */; };
+		24273D9528B2BA9B00680A2E /* M3U8PlaylistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8128B2BA9B00680A2E /* M3U8PlaylistModel.m */; };
+		24273D9628B2BA9B00680A2E /* NSString+m3u8.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8328B2BA9B00680A2E /* NSString+m3u8.m */; };
+		24273D9728B2BA9B00680A2E /* NSURL+easy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8428B2BA9B00680A2E /* NSURL+easy.m */; };
+		24273D9828B2BA9B00680A2E /* M3U8MasterPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8B28B2BA9B00680A2E /* M3U8MasterPlaylist.m */; };
+		24273D9928B2BA9B00680A2E /* M3U8ExtXMediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8C28B2BA9B00680A2E /* M3U8ExtXMediaList.m */; };
+		24273D9A28B2BA9B00680A2E /* M3U8ExtXStreamInfList.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8D28B2BA9B00680A2E /* M3U8ExtXStreamInfList.m */; };
+		24273D9B28B2BA9B00680A2E /* M3U8ExtXMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8E28B2BA9B00680A2E /* M3U8ExtXMedia.m */; };
+		24273D9C28B2BA9B00680A2E /* M3U8ExtXStreamInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 24273D8F28B2BA9B00680A2E /* M3U8ExtXStreamInf.m */; };
 		246914B11F183D3A00F66FB3 /* LED-TV-PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 246914B01F183D3A00F66FB3 /* LED-TV-PNG.png */; };
+		2474D49928B4DFB9000562CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474D49828B4DFB9000562CA /* Constants.swift */; };
 		2498988925821D13005C42D6 /* alsat.png in Resources */ = {isa = PBXBuildFile; fileRef = 2498988825821D13005C42D6 /* alsat.png */; };
 		2498989125821F18005C42D6 /* tv_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2498989025821F18005C42D6 /* tv_21.jpg */; };
 		249E2C0A22A2B793001CB6CF /* arena4.png in Resources */ = {isa = PBXBuildFile; fileRef = 249E2C0922A2B793001CB6CF /* arena4.png */; };
+		249F258B28B40BFD0019568B /* TVViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F258A28B40BFD0019568B /* TVViewController+Extension.swift */; };
+		249F258D28B40C110019568B /* TVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F258C28B40C110019568B /* TVObject.swift */; };
+		249F258F28B40C4E0019568B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F258E28B40C4E0019568B /* Info.swift */; };
+		249FC5A928ABBA7200F85824 /* TelevisionViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249FC5A828ABBA7200F85824 /* TelevisionViewController+Extension.swift */; };
 		24A4D457227ED19300C2410F /* mtmSkopska.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A4D456227ED19300C2410F /* mtmSkopska.png */; };
 		4391BC051E92B6A6002B6F86 /* era.png in Resources */ = {isa = PBXBuildFile; fileRef = 4391BC041E92B6A6002B6F86 /* era.png */; };
 		4391BC071E92B7B2002B6F86 /* 21tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4391BC061E92B7B2002B6F86 /* 21tv.png */; };
@@ -23,6 +39,8 @@
 		4394DAAA1E9299CF00B94051 /* nasa-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4394DAA91E9299CF00B94051 /* nasa-tv.png */; };
 		43BFD9C21E9240F400C9F59E /* kanal5.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BFD9C11E9240F400C9F59E /* kanal5.png */; };
 		43C526871E92687500095A28 /* telma.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C526861E92687500095A28 /* telma.png */; };
+		7452299D9DA2781B880119A1 /* Pods_MakTV_MakTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BD084327423E4BB5FAFDF8 /* Pods_MakTV_MakTVUITests.framework */; };
+		8A4698754176518C81933D19 /* Pods_MakTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7087898205B718DE941E83 /* Pods_MakTV.framework */; };
 		A30E13A41E9061B300A3A3FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A31E9061B300A3A3FB /* main.m */; };
 		A30E13A71E9061B300A3A3FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A61E9061B300A3A3FB /* AppDelegate.m */; };
 		A30E13AA1E9061B300A3A3FB /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13A91E9061B300A3A3FB /* TVViewController.m */; };
@@ -33,6 +51,7 @@
 		A30E13D41E9063DA00A3A3FB /* CellClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13D31E9063DA00A3A3FB /* CellClass.m */; };
 		A30E13DB1E9078F300A3A3FB /* TelevisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E13DA1E9078F300A3A3FB /* TelevisionViewController.m */; };
 		A3B509F91E910155003937B5 /* sitel.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B509F81E910155003937B5 /* sitel.png */; };
+		D0E0654EF9ECA7209105D2A3 /* Pods_MakTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629B514DDF2BA58709938AA5 /* Pods_MakTVTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +72,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A71A8524B36499A2083342 /* Pods-MakTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakTVTests.release.xcconfig"; path = "Target Support Files/Pods-MakTVTests/Pods-MakTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D7087898205B718DE941E83 /* Pods_MakTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B04DE8B44DAE9648954A6D0 /* Pods-MakTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakTV.debug.xcconfig"; path = "Target Support Files/Pods-MakTV/Pods-MakTV.debug.xcconfig"; sourceTree = "<group>"; };
+		24273D7728B2BA9B00680A2E /* M3U8PlaylistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8PlaylistModel.h; sourceTree = "<group>"; };
+		24273D7828B2BA9B00680A2E /* M3U8Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8Kit.h; sourceTree = "<group>"; };
+		24273D7A28B2BA9B00680A2E /* M3U8MediaPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8MediaPlaylist.m; sourceTree = "<group>"; };
+		24273D7B28B2BA9B00680A2E /* M3U8SegmentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8SegmentInfo.h; sourceTree = "<group>"; };
+		24273D7C28B2BA9B00680A2E /* M3U8SegmentInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8SegmentInfoList.m; sourceTree = "<group>"; };
+		24273D7D28B2BA9B00680A2E /* M3U8MediaPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8MediaPlaylist.h; sourceTree = "<group>"; };
+		24273D7E28B2BA9B00680A2E /* M3U8SegmentInfoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8SegmentInfoList.h; sourceTree = "<group>"; };
+		24273D7F28B2BA9B00680A2E /* M3U8SegmentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8SegmentInfo.m; sourceTree = "<group>"; };
+		24273D8028B2BA9B00680A2E /* M3U8TagsAndAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8TagsAndAttributes.h; sourceTree = "<group>"; };
+		24273D8128B2BA9B00680A2E /* M3U8PlaylistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8PlaylistModel.m; sourceTree = "<group>"; };
+		24273D8328B2BA9B00680A2E /* NSString+m3u8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+m3u8.m"; sourceTree = "<group>"; };
+		24273D8428B2BA9B00680A2E /* NSURL+easy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+easy.m"; sourceTree = "<group>"; };
+		24273D8528B2BA9B00680A2E /* NSURL+easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+easy.h"; sourceTree = "<group>"; };
+		24273D8628B2BA9B00680A2E /* NSString+m3u8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+m3u8.h"; sourceTree = "<group>"; };
+		24273D8828B2BA9B00680A2E /* M3U8ExtXStreamInfList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXStreamInfList.h; sourceTree = "<group>"; };
+		24273D8928B2BA9B00680A2E /* M3U8ExtXMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXMedia.h; sourceTree = "<group>"; };
+		24273D8A28B2BA9B00680A2E /* M3U8ExtXStreamInf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXStreamInf.h; sourceTree = "<group>"; };
+		24273D8B28B2BA9B00680A2E /* M3U8MasterPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8MasterPlaylist.m; sourceTree = "<group>"; };
+		24273D8C28B2BA9B00680A2E /* M3U8ExtXMediaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXMediaList.m; sourceTree = "<group>"; };
+		24273D8D28B2BA9B00680A2E /* M3U8ExtXStreamInfList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXStreamInfList.m; sourceTree = "<group>"; };
+		24273D8E28B2BA9B00680A2E /* M3U8ExtXMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXMedia.m; sourceTree = "<group>"; };
+		24273D8F28B2BA9B00680A2E /* M3U8ExtXStreamInf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXStreamInf.m; sourceTree = "<group>"; };
+		24273D9028B2BA9B00680A2E /* M3U8ExtXMediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXMediaList.h; sourceTree = "<group>"; };
+		24273D9128B2BA9B00680A2E /* M3U8MasterPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8MasterPlaylist.h; sourceTree = "<group>"; };
 		246914B01F183D3A00F66FB3 /* LED-TV-PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LED-TV-PNG.png"; sourceTree = "<group>"; };
+		2474D49828B4DFB9000562CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2498988825821D13005C42D6 /* alsat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alsat.png; sourceTree = "<group>"; };
 		2498989025821F18005C42D6 /* tv_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tv_21.jpg; sourceTree = "<group>"; };
 		249E2C0922A2B793001CB6CF /* arena4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arena4.png; sourceTree = "<group>"; };
+		249F258A28B40BFD0019568B /* TVViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TVViewController+Extension.swift"; sourceTree = "<group>"; };
+		249F258C28B40C110019568B /* TVObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVObject.swift; sourceTree = "<group>"; };
+		249F258E28B40C4E0019568B /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		249FC5A528ABB0BE00F85824 /* MakTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		249FC5A828ABBA7200F85824 /* TelevisionViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelevisionViewController+Extension.swift"; sourceTree = "<group>"; };
 		24A4D456227ED19300C2410F /* mtmSkopska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mtmSkopska.png; sourceTree = "<group>"; };
+		3805242B2C40F08219DAC5D7 /* Pods-MakTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakTVTests.debug.xcconfig"; path = "Target Support Files/Pods-MakTVTests/Pods-MakTVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4391BC041E92B6A6002B6F86 /* era.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = era.png; sourceTree = "<group>"; };
 		4391BC061E92B7B2002B6F86 /* 21tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21tv.png; sourceTree = "<group>"; };
 		4394DA9B1E9293DF00B94051 /* alfa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alfa.png; sourceTree = "<group>"; };
@@ -69,6 +122,9 @@
 		4394DAA91E9299CF00B94051 /* nasa-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nasa-tv.png"; sourceTree = "<group>"; };
 		43BFD9C11E9240F400C9F59E /* kanal5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanal5.png; path = ../kanal5.png; sourceTree = "<group>"; };
 		43C526861E92687500095A28 /* telma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telma.png; sourceTree = "<group>"; };
+		629B514DDF2BA58709938AA5 /* Pods_MakTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72982CD2384EE27DBAEEB84C /* Pods-MakTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakTV.release.xcconfig"; path = "Target Support Files/Pods-MakTV/Pods-MakTV.release.xcconfig"; sourceTree = "<group>"; };
+		85F385C81C0C3817884BB6E6 /* Pods-MakTV-MakTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakTV-MakTVUITests.release.xcconfig"; path = "Target Support Files/Pods-MakTV-MakTVUITests/Pods-MakTV-MakTVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A30E139F1E9061B300A3A3FB /* MakTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30E13A31E9061B300A3A3FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A30E13A51E9061B300A3A3FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +145,8 @@
 		A30E13D91E9078F300A3A3FB /* TelevisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelevisionViewController.h; sourceTree = "<group>"; };
 		A30E13DA1E9078F300A3A3FB /* TelevisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelevisionViewController.m; sourceTree = "<group>"; };
 		A3B509F81E910155003937B5 /* sitel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sitel.png; path = ../sitel.png; sourceTree = "<group>"; };
+		DB002F96339CC255E351317C /* Pods-MakTV-MakTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakTV-MakTVUITests.debug.xcconfig"; path = "Target Support Files/Pods-MakTV-MakTVUITests/Pods-MakTV-MakTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4BD084327423E4BB5FAFDF8 /* Pods_MakTV_MakTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakTV_MakTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4698754176518C81933D19 /* Pods_MakTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E0654EF9ECA7209105D2A3 /* Pods_MakTVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +170,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7452299D9DA2781B880119A1 /* Pods_MakTV_MakTVUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24273D7628B2BA9B00680A2E /* M3u8Parser */ = {
+			isa = PBXGroup;
+			children = (
+				24273D7728B2BA9B00680A2E /* M3U8PlaylistModel.h */,
+				24273D7828B2BA9B00680A2E /* M3U8Kit.h */,
+				24273D7928B2BA9B00680A2E /* Media Playlist */,
+				24273D8028B2BA9B00680A2E /* M3U8TagsAndAttributes.h */,
+				24273D8128B2BA9B00680A2E /* M3U8PlaylistModel.m */,
+				24273D8228B2BA9B00680A2E /* Categories */,
+				24273D8728B2BA9B00680A2E /* Master Playlist */,
+			);
+			path = M3u8Parser;
+			sourceTree = "<group>";
+		};
+		24273D7928B2BA9B00680A2E /* Media Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				24273D7A28B2BA9B00680A2E /* M3U8MediaPlaylist.m */,
+				24273D7B28B2BA9B00680A2E /* M3U8SegmentInfo.h */,
+				24273D7C28B2BA9B00680A2E /* M3U8SegmentInfoList.m */,
+				24273D7D28B2BA9B00680A2E /* M3U8MediaPlaylist.h */,
+				24273D7E28B2BA9B00680A2E /* M3U8SegmentInfoList.h */,
+				24273D7F28B2BA9B00680A2E /* M3U8SegmentInfo.m */,
+			);
+			path = "Media Playlist";
+			sourceTree = "<group>";
+		};
+		24273D8228B2BA9B00680A2E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				24273D8328B2BA9B00680A2E /* NSString+m3u8.m */,
+				24273D8428B2BA9B00680A2E /* NSURL+easy.m */,
+				24273D8528B2BA9B00680A2E /* NSURL+easy.h */,
+				24273D8628B2BA9B00680A2E /* NSString+m3u8.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		24273D8728B2BA9B00680A2E /* Master Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				24273D8828B2BA9B00680A2E /* M3U8ExtXStreamInfList.h */,
+				24273D8928B2BA9B00680A2E /* M3U8ExtXMedia.h */,
+				24273D8A28B2BA9B00680A2E /* M3U8ExtXStreamInf.h */,
+				24273D8B28B2BA9B00680A2E /* M3U8MasterPlaylist.m */,
+				24273D8C28B2BA9B00680A2E /* M3U8ExtXMediaList.m */,
+				24273D8D28B2BA9B00680A2E /* M3U8ExtXStreamInfList.m */,
+				24273D8E28B2BA9B00680A2E /* M3U8ExtXMedia.m */,
+				24273D8F28B2BA9B00680A2E /* M3U8ExtXStreamInf.m */,
+				24273D9028B2BA9B00680A2E /* M3U8ExtXMediaList.h */,
+				24273D9128B2BA9B00680A2E /* M3U8MasterPlaylist.h */,
+			);
+			path = "Master Playlist";
+			sourceTree = "<group>";
+		};
+		5425B11CB42F8685103F0A64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B04DE8B44DAE9648954A6D0 /* Pods-MakTV.debug.xcconfig */,
+				72982CD2384EE27DBAEEB84C /* Pods-MakTV.release.xcconfig */,
+				DB002F96339CC255E351317C /* Pods-MakTV-MakTVUITests.debug.xcconfig */,
+				85F385C81C0C3817884BB6E6 /* Pods-MakTV-MakTVUITests.release.xcconfig */,
+				3805242B2C40F08219DAC5D7 /* Pods-MakTVTests.debug.xcconfig */,
+				06A71A8524B36499A2083342 /* Pods-MakTVTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A30E13961E9061B300A3A3FB = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +252,8 @@
 				A30E13B81E9061B300A3A3FB /* MakTVTests */,
 				A30E13C31E9061B300A3A3FB /* MakTVUITests */,
 				A30E13A01E9061B300A3A3FB /* Products */,
+				5425B11CB42F8685103F0A64 /* Pods */,
+				F63E27B906A7594F243E6209 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +270,7 @@
 		A30E13A11E9061B300A3A3FB /* MakTV */ = {
 			isa = PBXGroup;
 			children = (
+				24273D7628B2BA9B00680A2E /* M3u8Parser */,
 				A3B509FB1E916F34003937B5 /* CollectionViewCell */,
 				A3B509FA1E916F1A003937B5 /* ViewController */,
 				A30E13A51E9061B300A3A3FB /* AppDelegate.h */,
@@ -183,8 +315,14 @@
 			children = (
 				A30E13A81E9061B300A3A3FB /* TVViewController.h */,
 				A30E13A91E9061B300A3A3FB /* TVViewController.m */,
+				249F258A28B40BFD0019568B /* TVViewController+Extension.swift */,
 				A30E13D91E9078F300A3A3FB /* TelevisionViewController.h */,
 				A30E13DA1E9078F300A3A3FB /* TelevisionViewController.m */,
+				249FC5A828ABBA7200F85824 /* TelevisionViewController+Extension.swift */,
+				249FC5A528ABB0BE00F85824 /* MakTV-Bridging-Header.h */,
+				249F258C28B40C110019568B /* TVObject.swift */,
+				249F258E28B40C4E0019568B /* Info.swift */,
+				2474D49828B4DFB9000562CA /* Constants.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -222,6 +360,16 @@
 			name = "TV Logo's";
 			sourceTree = "<group>";
 		};
+		F63E27B906A7594F243E6209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7087898205B718DE941E83 /* Pods_MakTV.framework */,
+				E4BD084327423E4BB5FAFDF8 /* Pods_MakTV_MakTVUITests.framework */,
+				629B514DDF2BA58709938AA5 /* Pods_MakTVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,6 +377,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30E13C91E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTV" */;
 			buildPhases = (
+				DDB9F983199FCA41D446591F /* [CP] Check Pods Manifest.lock */,
 				A30E139B1E9061B300A3A3FB /* Sources */,
 				A30E139C1E9061B300A3A3FB /* Frameworks */,
 				A30E139D1E9061B300A3A3FB /* Resources */,
@@ -246,6 +395,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30E13CC1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVTests" */;
 			buildPhases = (
+				F1227BABA9AE94945EFB0D0A /* [CP] Check Pods Manifest.lock */,
 				A30E13B11E9061B300A3A3FB /* Sources */,
 				A30E13B21E9061B300A3A3FB /* Frameworks */,
 				A30E13B31E9061B300A3A3FB /* Resources */,
@@ -264,6 +414,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30E13CF1E9061B300A3A3FB /* Build configuration list for PBXNativeTarget "MakTVUITests" */;
 			buildPhases = (
+				BBBABE7090344EDCEB83BAB3 /* [CP] Check Pods Manifest.lock */,
 				A30E13BC1E9061B300A3A3FB /* Sources */,
 				A30E13BD1E9061B300A3A3FB /* Frameworks */,
 				A30E13BE1E9061B300A3A3FB /* Resources */,
@@ -284,12 +435,16 @@
 		A30E13971E9061B300A3A3FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Dimitar Spasovski";
 				TargetAttributes = {
 					A30E139E1E9061B300A3A3FB = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 3ER26337KX;
+						DevelopmentTeam = 83X4658Q6Z;
+						LastSwiftMigration = 1340;
 						ProvisioningStyle = Automatic;
 					};
 					A30E13B41E9061B300A3A3FB = {
@@ -307,7 +462,7 @@
 				};
 			};
 			buildConfigurationList = A30E139A1E9061B300A3A3FB /* Build configuration list for PBXProject "MakTV" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -370,16 +525,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBBABE7090344EDCEB83BAB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakTV-MakTVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB9F983199FCA41D446591F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1227BABA9AE94945EFB0D0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakTVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A30E139B1E9061B300A3A3FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24273D9B28B2BA9B00680A2E /* M3U8ExtXMedia.m in Sources */,
+				24273D9728B2BA9B00680A2E /* NSURL+easy.m in Sources */,
+				24273D9528B2BA9B00680A2E /* M3U8PlaylistModel.m in Sources */,
+				24273D9A28B2BA9B00680A2E /* M3U8ExtXStreamInfList.m in Sources */,
+				24273D9328B2BA9B00680A2E /* M3U8SegmentInfoList.m in Sources */,
+				249FC5A928ABBA7200F85824 /* TelevisionViewController+Extension.swift in Sources */,
+				24273D9928B2BA9B00680A2E /* M3U8ExtXMediaList.m in Sources */,
+				24273D9628B2BA9B00680A2E /* NSString+m3u8.m in Sources */,
 				A30E13DB1E9078F300A3A3FB /* TelevisionViewController.m in Sources */,
+				24273D9228B2BA9B00680A2E /* M3U8MediaPlaylist.m in Sources */,
+				24273D9428B2BA9B00680A2E /* M3U8SegmentInfo.m in Sources */,
+				2474D49928B4DFB9000562CA /* Constants.swift in Sources */,
 				A30E13D41E9063DA00A3A3FB /* CellClass.m in Sources */,
+				249F258B28B40BFD0019568B /* TVViewController+Extension.swift in Sources */,
+				249F258F28B40C4E0019568B /* Info.swift in Sources */,
 				A30E13AA1E9061B300A3A3FB /* TVViewController.m in Sources */,
+				24273D9828B2BA9B00680A2E /* M3U8MasterPlaylist.m in Sources */,
+				24273D9C28B2BA9B00680A2E /* M3U8ExtXStreamInf.m in Sources */,
 				A30E13A71E9061B300A3A3FB /* AppDelegate.m in Sources */,
 				A30E13A41E9061B300A3A3FB /* main.m in Sources */,
+				249F258D28B40C110019568B /* TVObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +710,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
 			};
 			name = Debug;
 		};
@@ -511,50 +751,73 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A30E13CA1E9061B300A3A3FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B04DE8B44DAE9648954A6D0 /* Pods-MakTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3ER26337KX;
+				DEVELOPMENT_TEAM = 83X4658Q6Z;
 				INFOPLIST_FILE = MakTV/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.io.makTV1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitar.spasovski.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OBJC_BRIDGING_HEADER = "MakTV/MakTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		A30E13CB1E9061B300A3A3FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72982CD2384EE27DBAEEB84C /* Pods-MakTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3ER26337KX;
+				DEVELOPMENT_TEAM = 83X4658Q6Z;
 				INFOPLIST_FILE = MakTV/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.io.makTV1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitar.spasovski.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OBJC_BRIDGING_HEADER = "MakTV/MakTV-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		A30E13CD1E9061B300A3A3FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3805242B2C40F08219DAC5D7 /* Pods-MakTVTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = DL355SS22D;
 				INFOPLIST_FILE = MakTVTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakTV.app/MakTV";
@@ -563,11 +826,17 @@
 		};
 		A30E13CE1E9061B300A3A3FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A71A8524B36499A2083342 /* Pods-MakTVTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = DL355SS22D;
 				INFOPLIST_FILE = MakTVTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakTV.app/MakTV";
@@ -576,10 +845,16 @@
 		};
 		A30E13D01E9061B300A3A3FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB002F96339CC255E351317C /* Pods-MakTV-MakTVUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DL355SS22D;
 				INFOPLIST_FILE = MakTVUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = MakTV;
@@ -588,10 +863,16 @@
 		};
 		A30E13D11E9061B300A3A3FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F385C81C0C3817884BB6E6 /* Pods-MakTV-MakTVUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DL355SS22D;
 				INFOPLIST_FILE = MakTVUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.medialab.kodiappletv3.MakTVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = MakTV;

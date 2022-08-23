@@ -2,6 +2,9 @@
 #import "TVViewController.h"
 #import "CellClass.h"
 #import "TelevisionViewController.h"
+#import "AVKit/AVKit.h"
+#import "MakTV-Swift.h"
+
 
 @interface TVViewController ()
 <UICollectionViewDataSource,
@@ -10,7 +13,6 @@ UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) IBOutlet UICollectionViewFlowLayout *flowLayout;
-@property (strong, nonatomic) NSDictionary *televisionDictionary;
 
 @end
 
@@ -48,20 +50,51 @@ UICollectionViewDelegateFlowLayout>
 #pragma mark - Prepare data of Tv's
 
 -(void)prepareTelevisions{
-    self.televisionDictionary = [NSDictionary dictionary];
-    self.televisionDictionary = @{@"sitel": @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Sitel)/index.m3u8",
-                                  @"kanal5" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Kanal_5)/index.m3u8",
-                                  @"telma" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Telma)/index.m3u8",
-                                  @"alfa" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Alfa)/index.m3u8",
-                                  @"mrt" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MRT_1)/index.m3u8",
-                                  @"24vesti" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV_24)/index.m3u8",
-                                  @"nasa-tv" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Nasha_TV)/index.m3u8",
-                                  @"era" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(ERA)/index.m3u8",
-                                  @"21tv" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV21)/index.m3u8",
-                                  @"mtmSkopska" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MTM)/index.m3u8",
-                                  @"alsat" : @"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Alsat_M)/index.m3u8",
-                                
-                                  };
+    self.televisionDictionary =  [NSMutableArray new];
+    
+    
+    //Sitel
+    TVObject *sitel = [[TVObject alloc] initWithImageName:@"sitel" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Sitel)/index.m3u8"]];
+    [self.televisionDictionary addObject:sitel];
+    
+    TVObject *kanal5 = [[TVObject alloc] initWithImageName:@"kanal5" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Kanal_5)/index.m3u8"]];
+    [self.televisionDictionary addObject:kanal5];
+    
+    
+    TVObject *telma = [[TVObject alloc] initWithImageName:@"telma" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Telma)/index.m3u8"]];
+    [self.televisionDictionary addObject:telma];
+    
+    
+    TVObject *alfa = [[TVObject alloc] initWithImageName:@"alfa" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Alfa)/index.m3u8"]];
+    [self.televisionDictionary addObject:alfa];
+    
+    
+    TVObject *mrt = [[TVObject alloc] initWithImageName:@"mrt" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MRT_1)/index.m3u8"]];
+    [self.televisionDictionary addObject:mrt];
+    
+    
+    TVObject *vesti = [[TVObject alloc] initWithImageName:@"24vesti" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV_24)/index.m3u8"]];
+    [self.televisionDictionary addObject:vesti];
+    
+    TVObject *nasaTv = [[TVObject alloc] initWithImageName:@"nasa-tv" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV_24)/index.m3u8"]];
+    [self.televisionDictionary addObject:nasaTv];
+    
+    
+    TVObject *alsat = [[TVObject alloc] initWithImageName:@"alsat" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Alsat_M)/index.m3u8"]];
+    [self.televisionDictionary addObject:alsat];
+    
+    
+    TVObject *era = [[TVObject alloc] initWithImageName:@"era" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(ERA)/index.m3u8"]];
+    [self.televisionDictionary addObject:era];
+    
+    
+    TVObject *dvaesetIeden = [[TVObject alloc] initWithImageName:@"21tv" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV21)/index.m3u8"]];
+    [self.televisionDictionary addObject:dvaesetIeden];
+    
+    TVObject *mtmSkopska = [[TVObject alloc] initWithImageName:@"mtmSkopska" url:[NSURL URLWithString:@"https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MTM)/index.m3u8"]];
+    [self.televisionDictionary addObject:mtmSkopska];
+    
+
     [self.collectionView reloadData];
 
 }
@@ -73,13 +106,13 @@ UICollectionViewDelegateFlowLayout>
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return self.televisionDictionary.allKeys.count;
+    return self.televisionDictionary.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"classCell" forIndexPath:indexPath];
-    NSArray *keyArray = [self.televisionDictionary allKeys];
-    UIImage *image = [UIImage imageNamed:keyArray[indexPath.row]];
+    TVObject *obj = (TVObject *)self.televisionDictionary[indexPath.row];
+    UIImage *image = [UIImage imageNamed:obj.imageName];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.userInteractionEnabled = YES;
@@ -104,14 +137,22 @@ UICollectionViewDelegateFlowLayout>
 #pragma mark - Present Tv's View Controller
 
 - (void)presentTV:(NSIndexPath *)indexPath{
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    TelevisionViewController *myVC = (TelevisionViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TelevisionViewController"];
-    myVC.televisionUrlString = [self.televisionDictionary allValues][indexPath.row];
-    myVC.televison = [self.televisionDictionary allValues];
-    myVC.televisonName = [self.televisionDictionary allKeys];
-    myVC.index = indexPath.row;
-    [self presentViewController:myVC animated:YES completion:nil];
-
+    
+    
+    if (Constants.isCustomPlayerEnabled) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        TelevisionViewController *myVC = (TelevisionViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TelevisionViewController"];
+        TVObject *model = (TVObject *)self.televisionDictionary[indexPath.row];
+        myVC.televisionUrlString = model.url.absoluteString;
+        myVC.televison = [self televisionUrlStrings];
+        myVC.televisonName = [self televisionName];
+        myVC.index = indexPath.row;
+        [self presentViewController:myVC animated:YES completion:nil];
+    }else {
+          [self presentPplayerWithIndexPath:indexPath];
+    }
+    
+   
 }
 
 @end

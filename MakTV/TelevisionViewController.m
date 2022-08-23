@@ -1,16 +1,18 @@
 #import "TelevisionViewController.h"
 #import  <AVFoundation/AVPlayer.h>
 #import  <AVFoundation/AVPlayerLayer.h>
+#import <AVKit/AVKit.h>
+#import "M3U8PlaylistModel.h"
+
+#import "MakTV-Swift.h"
 
 @interface TelevisionViewController () <UIGestureRecognizerDelegate>{
     int findTelevision;
 }
-@property (nonatomic,strong) AVPlayer *avPlayer;
-@property (nonatomic,strong) AVPlayerLayer *avPlayerLayer;
-@property (nonatomic,strong) UITapGestureRecognizer *tapRecognizer;
-@property (nonatomic,strong) UILabel *televisionName;
-@property (nonatomic,strong) UIActivityIndicatorView *indicatorView;
-@property (strong,nonatomic) UIImageView *imageView;
+
+@property (nonatomic,strong) TVObject *currentTvObject;
+
+
 
 @end
 
@@ -29,8 +31,10 @@
     self.imageView.image = [UIImage imageNamed:@"LED-TV-PNG"];
     [self.view addSubview:self.imageView];
     
-    [self changeTv:self.televisionUrlString];
 
+    [self changeTv:self.televisionUrlString];
+    
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applicationIsActive:)
                                                  name:UIApplicationDidBecomeActiveNotification
@@ -40,6 +44,34 @@
                                              selector:@selector(applicationEnteredForeground:)
                                                  name:UIApplicationWillEnterForegroundNotification
                                                object:nil];
+    
+    NSURL *url  = [NSURL URLWithString:self.televison[self.index]];
+    
+    
+    NSError *error = nil;
+    self.videoArray = [NSMutableArray new];
+    self.m3u8Model  = [[M3U8PlaylistModel alloc]
+                                 initWithURL:url
+                                 error:&error];
+    
+    for (int i = 0 ; i< self.m3u8Model.masterPlaylist.xStreamList.count; i++) {
+        [self.videoArray addObject:[[self.m3u8Model.masterPlaylist.xStreamList xStreamInfAtIndex:i] dictionary]];
+        
+        
+        
+    }
+    
+    for (NSDictionary *dic in self.videoArray) {
+        NSURL *baseUrl = [dic valueForKey:@"baseURL"];
+        NSString *uri =  [dic valueForKey:@"URI"];
+        NSString *fullURL = [NSString stringWithFormat:@"%@%@",baseUrl.absoluteString,uri];
+        NSLog(fullURL);
+        
+    }
+    
+
+    
+  
 }
 
 - (void)addGesuresRecognizers
@@ -61,6 +93,9 @@
     [self.view addGestureRecognizer:swipeRecognizerLeft];
     
     
+    
+    UISwipeGestureRecognizer* swipeRecognizerUP = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swippedUp:)]; swipeRecognizerUP.direction =UISwipeGestureRecognizerDirectionUp;
+    [self.view addGestureRecognizer:swipeRecognizerUP];
 }
 
 
@@ -116,6 +151,13 @@
     }
 }
 
+-(void)swippedUp:(UISwipeGestureRecognizer *)recognizer{
+
+
+}
+
+
+
 -(void)changeTv:(NSString *)strUrlString{
     
     [self.avPlayer pause];
@@ -134,6 +176,7 @@
 
     self.televisionName.textColor = [UIColor blackColor];
     [self.view addSubview:self.televisionName];
+    
 }
 
 @end
